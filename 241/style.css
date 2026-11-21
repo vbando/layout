@@ -1,5 +1,8 @@
 #menu {
 	display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
 }
 #menu a {
 	margin-right: 5px;
@@ -7,11 +10,11 @@
 	font: 15px Arial;
 	text-decoration: none;
 	color: #ffffff;
-	border: 1px solid rgb(40, 201, 40);
-	background-color: rgb(40, 201, 40);
+	border: 1px solid rgb(22, 160, 133);
+	background-color: rgb(22, 160, 133);
 }
 #menu a:hover, #menu a.active {
-	color: rgb(40,201,40);
-	border: 1px solid rgb(40, 201, 40);
+	color: rgb(22, 160, 133);
+	border: 1px solid rgb(22, 160, 133);
 	background-color: #F5F6FA;
 }
