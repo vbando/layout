@@ -103,6 +103,7 @@ h1{
 .text a {
     color: #9B6100;
     text-decoration: none;
+	padding:10px;
 }
 .text a:hover{
 	color: black;
