@@ -49,21 +49,21 @@
 	display: flex;
 	justify-content: left;
 	margin-bottom: 20px;
-	background-color: #484848;
+	background-color: orange;
 }
-#menu a {
+#menu1 a {
 	margin: 0 5px;
 	padding: 15px 25px;
 	text-decoration: none;
 	color: #fff;
 	font: bold 14px Arial;
 }
-#menu a:hover, #menu a.active1 {
-	color: #484848;
-	background-color: #fff;
+#menu1 a:hover, #menu a.active1 {
+	color: orange;
+	background-color: #ffffff;
 }
 
-#content1 {
+#content1 {	
 	padding: 0 30px 20px;
 }
 #content1 h1 {
@@ -76,5 +76,35 @@
 	margin-bottom: 5px;
 	font: 18px/1.3 Arial;
 	text-align: justify;
+	color: orange;
+}
+#content1 a:hover{
+	color: black;
+}
+#content1 a{
+	color: orange;
+}
+h1{
+	color: orange;
+}
+.pp{
+	color: black;
+}
+.text {
+    display: flex;
+    justify-content: center;
 }
 
+.text p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.text a {
+    color: #9B6100;
+    text-decoration: none;
+}
+.text a:hover{
+	color: black;
+	text-decoration: underline;
+}
